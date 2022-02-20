@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/job.css">
+	<title>Вакансии</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header-job">
+			<div class="container">
+				<div class="header-job__row">
+					<a href="index.html" class="header-job__logo"><img src="img/logo.png" alt=""></a>
+					<a href="tel:74954945432" class="header-job__tel">+7(495)494-54-32</a>
+				</div>
+			</div>
+		</header>
+		<section class="start">
+			<div class="container">
+				<div class="start__row">
+					<div class="start__content">
+						<h2 class="start__title">Начни зарабатывать вместе с нами</h2>
+						<div class="start__sub-title">Начни свой путь в лучшей команде</div>
+						<div class="start__wrapper">
+							<div class="start__wrap">
+								<img src="img/time.svg" alt="Гибкий график" class="start__img">
+								<span class="start__text">Гибкий график</span>
+							</div>
+							<div class="start__wrap">
+								<img src="img/humon.svg" alt="Дружный коллектив" class="start__img">
+								<span class="start__text">Дружный коллектив</span>
+							</div>
+							<div class="start__wrap">
+								<img src="img/home.svg" alt="Работа рядом с домом" class="start__img">
+								<span class="start__text">Работа рядом с домом</span>
+							</div>
+							<div class="start__wrap">
+								<img src="img/money.svg" alt="Белая заработная плата" class="start__img">
+								<span class="start__text">Белая заработная плата</span>
+							</div>
+						</div>
+						<a href="" class="start__btn btn-all">Присоедениться</a>
+					</div>
+					<div class="start__imgage">
+						<img src="img/man.png" alt="человек">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="job">
+			<div class="container">
+				<h2 class="job__title title-all">Вакансии</h2>
+				<div class="job__wrapper">
+					<div class="job__wrap">
+						<div class="job__name">Администратор</div>
+						<img src="img/job-man.png" alt="" class="job__img">
+						<a href="" class="job__arrow" id="z"><img src="img/arrow-bg.png" alt=""></a>
+					</div>
+					<div class="job__wrap">
+						<div class="job__name">БАРИСТА</div>
+						<img src="img/job-man.png" alt="" class="job__img">
+						<a href="" class="job__arrow" id="x"><img src="img/arrow-bg.png" alt=""></a>
+					</div>
+					<div class="job__wrap">
+						<div class="job__name">МЕНЕДЖЕР</div>
+						<img src="img/job-man.png" alt="" class="job__img">
+						<a href="" class="job__arrow" id="c"><img src="img/arrow-bg.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="popap-job" id="qa">
+			<div class="container">
+				<form action="" class="popap-job__form">
+					<div class="popap-job__title">Заявка на должность “АДМИНИСТРАТОРА”</div>
+					<div class="popap-job__column">
+						<input type="text" class="popap-job__input" placeholder="ФИО" required>
+						<input class="popap-job__input" placeholder="Дата Рождения" type="text" onfocus="this.type='date'"
+							onblur="if(this.value==''){this.type='text'}" />
+						<div class="popap-job__wrap">
+							<div class="popap-job__select">Опыт работы</div>
+							<label for="w" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="radio" id="w">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">ДА</span>
+							</label>
+							<label for="q" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="radio" id="q">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">НЕТ</span>
+							</label>
+						</div>
+						<div class="popap-job__wrap">
+							<div class="popap-job__select">Наличие мед.кн-ки</div>
+							<label for="r" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="radio2" id="r">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">ДА</span>
+							</label>
+							<label for="e" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="radio2" id="e">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">НЕТ</span>
+							</label>
+						</div>
+						<textarea class="popap-job__textarea" name="" id="" placeholder="Предыдущее место работы..."></textarea>
+						<div class="popap-job__chart">
+							<div class="popap-job__text">Желаемый график работы</div>
+							<div class="popap-job__pair">
+								<div class="popap-job__days">
+									<span class="popap-job__s">7 Дней</span>
+									<div class="popap-job__list popap-job__h">
+										<a href="" class="popap-job__link">1 День</a>
+										<a href="" class="popap-job__link">2 Дня</a>
+										<a href="" class="popap-job__link">3 Дня</a>
+										<a href="" class="popap-job__link">4 Дня</a>
+										<a href="" class="popap-job__link">5 Дня</a>
+										<a href="" class="popap-job__link">6 Дней</a>
+										<a href="" class="popap-job__link">7 Дней</a>
+									</div>
+								</div>
+								<div class="popap-job__watch">
+									<span class="popap-job__s">12 Часов</span>
+									<div class="popap-job__list popap-job__l">
+										<a href="" class="popap-job__link">4 Часа</a>
+										<a href="" class="popap-job__link">5 Часов</a>
+										<a href="" class="popap-job__link">6 Часов</a>
+										<a href="" class="popap-job__link">7 Часов</a>
+										<a href="" class="popap-job__link">8 Часов</a>
+										<a href="" class="popap-job__link">9 Часов</a>
+										<a href="" class="popap-job__link">10 Часов</a>
+										<a href="" class="popap-job__link">11 Часов</a>
+										<a href="" class="popap-job__link">12 Часов</a>
+										<a href="" class="popap-job__link">13 Часов</a>
+										<a href="" class="popap-job__link">14 Часов</a>
+										<a href="" class="popap-job__link">15 Часов</a>
+									</div>
+							</div>
+							</div>
+						</div>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Причина поиска работы..."></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три приемущества"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три недостатка"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три проффесиональных навыка"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Рассказ о своей жизни, какой ты ее видишь через 2 года"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Какие у тебя любимые книги ?"></textarea>
+						<label for="file" class="popap-job__lab">Прикрепить резюме (по желанию)</label>
+						<input type="file" class="popap-job__file" id="file">
+						<input type="submit" class="popap-job__btn btn-all" value="Отправить заявку">
+						<div class="popap-job__close"><img src="img/close.png" alt=""></div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="popap-job" id="wa">
+			<div class="container">
+				<form action="" class="popap-job__form">
+					<div class="popap-job__title">Заявка на должность “Бариста”</div>
+					<div class="popap-job__column">
+						<input type="text" class="popap-job__input" placeholder="ФИО" required>
+						<input class="popap-job__input" placeholder="Дата Рождения" type="text" onfocus="this.type='date'"
+							onblur="if(this.value==''){this.type='text'}" />
+						<div class="popap-job__wrap">
+							<div class="popap-job__select">Опыт работы</div>
+							<label for="ex" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="ra" id="ex">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">ДА</span>
+							</label>
+							<label for="rx" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="ra" id="rx">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">НЕТ</span>
+							</label>
+						</div>
+						<div class="popap-job__wrap">
+							<div class="popap-job__select">Наличие мед.кн-ки</div>
+							<label for="rz" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="radq" id="rz">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">ДА</span>
+							</label>
+							<label for="ez" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="radq" id="ez">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">НЕТ</span>
+							</label>
+						</div>
+						<textarea class="popap-job__textarea" name="" id="" placeholder="Предыдущее место работы..."></textarea>
+						<div class="popap-job__chart">
+							<div class="popap-job__text">Желаемый график работы</div>
+							<div class="popap-job__pair">
+								<div class="popap-job__days">
+									<span class="popap-job__s">7 Дней</span>
+									<div class="popap-job__list popap-job__h">
+										<a href="" class="popap-job__link">1 День</a>
+										<a href="" class="popap-job__link">2 Дня</a>
+										<a href="" class="popap-job__link">3 Дня</a>
+										<a href="" class="popap-job__link">4 Дня</a>
+										<a href="" class="popap-job__link">5 Дня</a>
+										<a href="" class="popap-job__link">6 Дней</a>
+										<a href="" class="popap-job__link">7 Дней</a>
+									</div>
+								</div>
+								<div class="popap-job__watch">
+									<span class="popap-job__s">12 Часов</span>
+									<div class="popap-job__list popap-job__l">
+										<a href="" class="popap-job__link">4 Часа</a>
+										<a href="" class="popap-job__link">5 Часов</a>
+										<a href="" class="popap-job__link">6 Часов</a>
+										<a href="" class="popap-job__link">7 Часов</a>
+										<a href="" class="popap-job__link">8 Часов</a>
+										<a href="" class="popap-job__link">9 Часов</a>
+										<a href="" class="popap-job__link">10 Часов</a>
+										<a href="" class="popap-job__link">11 Часов</a>
+										<a href="" class="popap-job__link">12 Часов</a>
+										<a href="" class="popap-job__link">13 Часов</a>
+										<a href="" class="popap-job__link">14 Часов</a>
+										<a href="" class="popap-job__link">15 Часов</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Причина поиска работы..."></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три приемущества"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три недостатка"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три проффесиональных навыка"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Рассказ о своей жизни, какой ты ее видишь через 2 года"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Какие у тебя любимые книги ?"></textarea>
+						<label for="file" class="popap-job__lab">Прикрепить резюме (по желанию)</label>
+						<input type="file" class="popap-job__file" id="file">
+						<input type="submit" class="popap-job__btn btn-all" value="Отправить заявку">
+						<div class="popap-job__close"><img src="img/close.png" alt=""></div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="popap-job" id="ea">
+			<div class="container">
+				<form action="" class="popap-job__form">
+					<div class="popap-job__title">Заявка на должность “МЕНЕДЖЕРА”</div>
+					<div class="popap-job__column">
+						<input type="text" class="popap-job__input" placeholder="ФИО" required>
+						<input class="popap-job__input" placeholder="Дата Рождения" type="text" onfocus="this.type='date'"
+							onblur="if(this.value==''){this.type='text'}" />
+						<div class="popap-job__wrap">
+							<div class="popap-job__select">Опыт работы</div>
+							<label for="t" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="ra" id="t">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">ДА</span>
+							</label>
+							<label for="maa" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="ra" id="maa">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">НЕТ</span>
+							</label>
+						</div>
+						<div class="popap-job__wrap">
+							<div class="popap-job__select">Наличие мед.кн-ки</div>
+							<label for="rq" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="raq" id="rq">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">ДА</span>
+							</label>
+							<label for="eq" class="popap-job__label">
+								<input type="radio" class="popap-job__radio" name="raq" id="eq">
+								<span class="popap-job__fake"></span>
+								<span class="popap-job__span">НЕТ</span>
+							</label>
+						</div>
+						<textarea class="popap-job__textarea" name="" id="" placeholder="Предыдущее место работы..."></textarea>
+						<div class="popap-job__chart">
+							<div class="popap-job__text">Желаемый график работы</div>
+							<div class="popap-job__pair">
+								<div class="popap-job__days">
+									<span class="popap-job__s">7 Дней</span>
+									<div class="popap-job__list popap-job__h">
+										<a href="" class="popap-job__link">1 День</a>
+										<a href="" class="popap-job__link">2 Дня</a>
+										<a href="" class="popap-job__link">3 Дня</a>
+										<a href="" class="popap-job__link">4 Дня</a>
+										<a href="" class="popap-job__link">5 Дня</a>
+										<a href="" class="popap-job__link">6 Дней</a>
+										<a href="" class="popap-job__link">7 Дней</a>
+									</div>
+								</div>
+								<div class="popap-job__watch">
+									<span class="popap-job__s">12 Часов</span>
+									<div class="popap-job__list popap-job__l">
+										<a href="" class="popap-job__link">4 Часа</a>
+										<a href="" class="popap-job__link">5 Часов</a>
+										<a href="" class="popap-job__link">6 Часов</a>
+										<a href="" class="popap-job__link">7 Часов</a>
+										<a href="" class="popap-job__link">8 Часов</a>
+										<a href="" class="popap-job__link">9 Часов</a>
+										<a href="" class="popap-job__link">10 Часов</a>
+										<a href="" class="popap-job__link">11 Часов</a>
+										<a href="" class="popap-job__link">12 Часов</a>
+										<a href="" class="popap-job__link">13 Часов</a>
+										<a href="" class="popap-job__link">14 Часов</a>
+										<a href="" class="popap-job__link">15 Часов</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Причина поиска работы..."></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три приемущества"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три недостатка"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Три проффесиональных навыка"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Рассказ о своей жизни, какой ты ее видишь через 2 года"></textarea>
+						<textarea class="popap-job__textarea" name="" id="" cols="30" rows="10"
+							placeholder="Какие у тебя любимые книги ?"></textarea>
+						<label for="file" class="popap-job__lab">Прикрепить резюме (по желанию)</label>
+						<input type="file" class="popap-job__file" id="file">
+						<input type="submit" class="popap-job__btn btn-all" value="Отправить заявку">
+						<div class="popap-job__close"><img src="img/close.png" alt=""></div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="container">
+					<div class="footer__body">
+						<div class="footer__column">
+							<div class="footer__sub-title">Гостю:</div>
+							<a href="" class="footer__link">Меню</a>
+							<a href="" class="footer__link">Адреса</a>
+							<a href="" class="footer__link">Работа бариста</a>
+							<div class="footer__bottom hd">© 2022 Tabacoffee</div>
+						</div>
+						<div class="footer__column">
+							<div class="footer__sub-title">Бизнесу:</div>
+							<a href="" class="footer__link">Франшиза</a>
+							<a href="" class="footer__link">Инвестиции</a>
+							<div class="footer__social">
+								<div class="footer__we">Мы в социальных сетях:</div>
+								<div class="footer__icons">
+									<a href="" class="footer__icon"><img src="img/telegram.png" alt=""></a>
+									<a href="" class="footer__icon"><img src="img/vk.png" alt=""></a>
+									<a href="" class="footer__icon"><img src="img/instagram.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<div class="footer__contacts">
+							<a href="tel:+79774167154" class="footer__contact">+7 (977) 416-71-54</a>
+							<div class="footer__text">для звонков из России и других стран</div>
+							<a href="mailto:hotline@tabacoffee.ru" class="footer__contact">hotline@tabacoffee.ru</a>
+							<div class="footer__text">ул. Кольцевая, д.12</div>
+							<div class="footer__block">
+								<div class="footer__gray">ИНН - 1832114280</div>
+								<div class="footer__gray">ОГРН – 1131832006778</div>
+							</div>
+							<div class="footer__bot">Политика конфиденциальности</div>
+							<div class="footer__bottom nt">© 2022 Tabacoffee</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="basket-push basket-push--ok">
+		<div class="basket-push__block">
+			<div class="basket-push__img"><img src="img/ok-push.png" alt=""></div>
+			<div class="basket-push__text">Заявка успешно отправлена</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

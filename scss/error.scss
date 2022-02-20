@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "Fontuna";
+	src: url("../fonts/FontunaMedium.eot");
+	src: local("☺"), url("../fonts/FontunaMedium.woff") format("woff"),
+		url("../fonts/FontunaMedium.ttf") format("truetype"), url("../fonts/FontunaMedium.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "Fontuna";
+}
+
+.error {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 115px 0;
+	flex-direction: column;
+	&__logo {
+		margin-bottom: 26px;
+		max-width: 355px;
+		img {
+			width: 100%;
+		}
+	}
+
+	&__number {
+		font-weight: normal;
+		font-size: 500px;
+		line-height: 525px;
+		@media screen and (max-width: 576px) {
+			font-size: 300px;
+			line-height: 325px;
+		}
+	}
+
+	&__btn {
+		height: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #f5d563;
+		box-shadow: 1px 3px 20px #f5d563;
+		border-radius: 5px;
+		-moz-transform: translate(-3px, -2px) skew(-10deg, 0deg);
+		-webkit-transform: translate(-3px, -2px) skew(-10deg, 0deg);
+		-o-transform: translate(-3px, -2px) skew(-10deg, 0deg);
+		-ms-transform: translate(-3px, -2px) skew(-10deg, 0deg);
+		transform: translate(-3px, -2px) skew(-10deg, 0deg);
+		margin: 0 auto;
+		color: #000;
+		padding: 0 50px;
+		text-decoration: none;
+		font-family: "Montserrat", sans-serif;
+		cursor: pointer;
+		font-size: 18px;
+
+		text-align: center;
+		@media screen and (max-width: 500px) {
+			padding: 0 20px;
+		}
+		&:hover {
+			background: #e7bb1a;
+		}
+	}
+}

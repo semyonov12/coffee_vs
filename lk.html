@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/lk.css">
+	<link rel="stylesheet" href="css/media_lk.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Личный кабинет</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header-top">
+			<div class="container flex fle">
+				<div class="account">
+					<div class="user">
+						<img src="img/user.png" alt="" class="">
+					</div>
+					<h2 class="hello_user">Здравствуйте, Иван</h2>
+				</div>
+				<div class="menu">
+					<button class="small"><img src="img/cupons.png" alt="" class="btn_img"></button>
+					<button class="small"><img src="img/bell.png" alt="" class="btn_img"></button>
+					<button class="small"><img src="img/settings.png" alt="" class="btn_img"></button>
+					<button class="small"><img src="img/card.png" alt="" class="btn_img"></button>
+					<button class="small"><img src="img/exit.png" alt="" class="btn_img"></button>
+				</div>
+			</div>
+		</header>
+		<section class="section">
+			<div class="container">
+				<div class="section_header">
+					<h1 class="section_title">Акции</h1>
+				</div>
+				<div class="content flex">
+					<div class="sales_item red">
+						<div class="sales_header">
+							<h3 class="sales_title">Кофе в подарок</h3>
+						</div>
+						<p class="sales_text">Приведи друга и получи напиток в подарок</p>
+						<img src="img/gift.png" alt="" class="sales_img">
+						<img src="img/gift.png" alt="" class="sales_img sales_img2">
+					</div>
+					<div class="sales_item blue">
+						<div class="sales_header">
+							<h3 class="sales_title">X2 по системе лояльности</h3>
+						</div>
+						<p class="sales_text">Умнажаем все ваши полученные баллы</p>
+						<img src="img/Х2.png" alt="" class="sales_img ds">
+					</div>
+				</div>
+			</div>
+		</section>
+		<seciton class="section" id="your_card">
+			<div class="container">
+				<div class="section_header">
+					<h1 class="section_title">Ваша карта</h1>
+				</div>
+				<div class="content flex" id="padding">
+					<div class="card">
+						<div class="card_item active">
+							<div class="logo">tabacoffe</div>
+							<button class="vipusk">+</button>
+							<div class="card_text">Выпустить витуальную карту</div>
+						</div>
+						<div class="card_item2">
+							<div class="logo">tabacoffe</div>
+							<div class="balans">
+								<h6 class="balans_title">Баланс</h6>
+								<p class="balans_value">500 р</p>
+							</div>
+							<div class="card_number">100 000 001</div>
+							<div class="qr-code"><img src="img/qr-code.png" alt="" class="code"></div>
+						</div>
+
+					</div>
+					<div class="opportunities">
+						<div class="opp1 active">
+							<h2 class="opp_title">Что дает виртуальная карта лояльности ?</h2>
+							<h3 class="opp_item">Возможность копить бонусы </h3>
+							<h3 class="opp_item">Обменивать баллы на кофе и выпечку</h3>
+						</div>
+						<div class="opp2">
+							<div class="card_details flex">
+								<h2 class="card_details_title">Номер карты:</h2>
+								<p class="card_details_value"> 100 000 001</p>
+							</div>
+							<div class="card_details flex">
+								<h2 class="card_details_title">Код защиты:</h2>
+								<p class="card_details_value"> 3504</p>
+							</div>
+							<div class="card_details flex">
+								<h2 class="card_details_title">Уровень: </h2>
+								<p class="card_details_value">Серебро</p>
+							</div>
+							<div class="oplata flex">
+								<button class="oplata_btn flex">
+									<img src="img/apple.png" alt="" class="oplata_img">
+									<h4 class="oplata_name">Apple Pay</h4>
+								</button>
+								<button class="oplata_btn flex">
+									<img src="img/android.png" alt="" class="oplata_img">
+									<h4 class="oplata_name">Google Pay</h4>
+								</button>
+								<button class="oplata_btn flex">
+									<img src="img/samsung.png" alt="" class="oplata_img">
+									<h4 class="oplata_name">Samsung Pay</h4>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="referal">
+					<h2 class="referal_title">Реферальная программа</h2>
+					<div class="referal_link_item flex">
+						<input type="text" class="referal_link" value="https://card.tabacoffee.ru/?referal=123">
+						<button class="big referal_copy">Скопировать ссылку</button>
+					</div>
+					<p class="referal_text">Приглашайте друзей и получайте награды за выполнение заданий</p>
+				</div>
+			</div>
+		</seciton>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

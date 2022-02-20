@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+@font-face {
+    font-family: 'Fontuna';
+    src: url('fonts/Fontuna-Regular.eot');
+    src: local('Fontuna Regular'), local('Fontuna-Regular'),
+        url('fonts/Fontuna-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Fontuna-Regular.woff2') format('woff2'),
+        url('fonts/Fontuna-Regular.woff') format('woff'),
+        url('fonts/Fontuna-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    padding: 0;
+    margin: 0;
+	background-color: #E7E7E7;
+	overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+button.big{
+  width: 258px;
+  height: 70px;
+  -moz-transform: translate(-3px, -2px) skew(-10deg, 0deg);
+	-webkit-transform: translate(-3px, -2px) skew(-10deg, 0deg);
+	-o-transform: translate(-3px, -2px) skew(-10deg, 0deg);
+	-ms-transform: translate(-3px, -2px) skew(-10deg, 0deg);
+  border: 0;
+  background: #F5D563;
+  box-shadow: 1px 3px 20px #F5D563;
+  border-radius: 5px;
+  padding: 24px 0;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+button.small{
+  transform: skew(-10deg);
+  cursor: pointer;
+  width: 90px;
+  border: 0;
+  height: 70px;
+  background: #F5D563;
+  box-shadow: 1px 3px 20px #F5D563;
+  border-radius: 5px;
+  margin-left: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.fle {
+	justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+.red{
+    background: #C66F6F;
+}
+.blue{
+    background: #7797BC;
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+/* header */
+.header-top{
+    width: 100%;
+    border-bottom:  0.5px solid #C0C0C0;
+	 padding: 40px 0;
+}
+.account{
+    display: table;
+}
+.hello_user{
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 10px;
+}
+.account,.menu{
+
+}
+.user{
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 25px;
+}
+.user_img{
+    width: 25px;
+    height: 25px;
+}
+.menu{
+    text-align: right;
+}
+/* section */
+.section{
+    width: 100%;
+}
+.section_title{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.content.flex{
+    justify-content: space-between;
+}
+/* sales */
+.sales_item{
+    width: 45%;
+    height: 315px;
+    padding: 21px 38px;
+    position: relative;
+}
+.sales_title{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 55px;
+}
+.sales_text{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+.sales_img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+
+}
+.sales_img2{
+    right: 5%;
+}
+/* card */
+#padding{
+    margin-top: 50px;
+}
+.card{
+    position: relative;
+    margin-right: 105px;
+}
+.card_item,.card_item2{
+    opacity: 0;
+    z-index: -1;
+    padding: 20px 35px;
+    width: 380px;
+    height: 220px;
+    background: #979797;
+    border-radius: 10px;
+    color: #fff;
+    transform: rotateY(180deg);
+    transition: rotateY 2s linear, opacity 1s linear;
+}
+.logo{
+    text-transform: uppercase;
+    font-family: Fontuna;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 50px;
+}
+.vipusk{
+    display: block;
+    margin: 25px auto;
+    background-color: transparent;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 2.75px solid #FFFFFF;
+    line-height: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.card_text{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+.opportunities{
+    width: 70%;
+}
+.opp_title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+}
+.opp1,.opp2{
+    opacity: 0;
+}
+.opp1.active,.opp2.active{
+    opacity: 1;
+        z-index: 10;
+}
+.opp_item{
+    color: #000;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+}
+.card_item2{
+    background-color: #F5D563;
+    margin-top: -220px;
+    position: relative;
+    color: #000;
+}
+/* card active */
+.card_item.active,.card_item2.active{
+   opacity: 1;
+    z-index: 10;
+   transform: rotateY(360deg);
+}
+.qr-code{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+.balans_title{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.balans_value{
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 46px;
+}
+.card_number{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+    margin-top: 15px;
+}
+.referal{
+    opacity: 0;
+    margin-top: 15px;
+}
+.referal.active{
+    opacity: 1;
+}
+.referal_title{
+    font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+}
+.referal_link_item{
+    margin-top: 50px;
+}
+.referal_link{
+    border: 0;
+    margin-right: 75px;
+    background: rgba(196, 196, 196, 0.4);
+border-radius: 5px;
+width: 370px;
+height: 75px;
+line-height: 75px;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+}
+.referal_text{
+    margin-top: 15px;
+    font-weight: normal;
+font-size: 19px;
+line-height: 23px;
+}
+/* card_details */
+.opp2{
+    margin-top: -127px;
+}
+.card_details{
+    margin-bottom: 20px;
+}
+.card_details:last-child{
+    margin-bottom: 10px;
+}
+.card_details_title{
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+margin-right: 5px;
+}
+.card_details_value{
+    font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+/* oplata */
+.oplata{
+    flex-wrap: wrap;
+}
+.oplata_btn{
+    width: 270px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    height: 85px;
+    line-height: 85px;
+    background: #3E3E3E;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.oplata_btn img{
+    margin: 25px 30px 0 20px;
+}
+.oplata_btn:first-child{
+    margin-right: 115px;
+}
+.oplata_btn:last-child{
+    margin-left: 200px;
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
